@@ -1,0 +1,22 @@
+{
+  "name": "voting-server",
+  "version": "1.0.0",
+  "description": "a voting server made withr redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nbuechler/voting-server.git"
+  },
+  "keywords": [
+    "redux"
+  ],
+  "author": "Nathaniel Buechler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nbuechler/voting-server/issues"
+  },
+  "homepage": "https://github.com/nbuechler/voting-server"
+}
