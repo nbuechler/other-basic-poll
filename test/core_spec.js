@@ -132,9 +132,11 @@ describe('application logic', () => {
         })
       );
     });
+
   });
 
   describe('vote', () => {
+
     it('creates a tally for the voted entry', () => {
       expect(
         vote(Map({
@@ -222,5 +224,7 @@ describe('application logic', () => {
         })
       );
     });
+
   });
+
 });

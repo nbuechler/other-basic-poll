@@ -1,4 +1,4 @@
-import {List} from 'immutable';
+import {List, Map} from 'immutable';
 
 export const INITIAL_STATE = Map();
 
@@ -59,7 +59,7 @@ function removePreviousVote(voteState, voter) {
 function addVote(voteState, entry, voter) {
   if (voteState.get('pair').includes(entry)) {
     return voteState.updateIn(['tally', entry], 0, t => t + 1)
-                  .setIn(['votes', voter], entry);
+                    .setIn(['votes', voter], entry);
   } else {
     return voteState;
   }
