@@ -5,6 +5,7 @@
   },
   "rules": {
     "react/jsx-quotes": 0,
+    "new-cap": 0,
     "jsx-quotes": [2, "prefer-double"]
   }
 }
