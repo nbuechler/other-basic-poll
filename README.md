@@ -1,7 +1,7 @@
 # voting-server
 Based on react-reduct tutorial. The link to the tutorial can be found here: http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html
 
-#Lessons Learned:
+# Lessons Learned:
 
 * The internet is a great place to go for resources, and they usually are free - which can be better than paying for a class.
 * When react was brand new, and then when redux was released, this tutorial helped me familiarize myself with those technologies and others. I was also introduced to webpack, and es6.
